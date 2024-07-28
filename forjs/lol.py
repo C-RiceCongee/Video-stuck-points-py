@@ -18,7 +18,13 @@ def selectAudioFiles(window):
         for i in range(len(beat_times)):
             api_url = "https://picsum.photos/200/300"  # 替换为实际的 API URL
             # 下载随机图片
-            download_random_image(api_url, os.path.join(img_dir), f'image_{i}.png')
+            dir =  os.path.join(img_dir)
+            filename =  f'image_{i}.png'
+            fullFilePath =  os.path.join(os.path.join(dir), filename)
+            if not fullFilePath:
+                download_random_image(api_url, os.path.join(dir), filename)
+            else:
+                print(fullFilePath,'has exist !!')
         # 3. 创建视频剪辑
         clips = []
         for i in range(len(beat_times) - 1):
