@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2024-07-28T12:20:13.023Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="l9eGgcHb-dsED1Kebr9V" border="50" scale="3" compressed="false" locked="false" version="24.5.4" type="device">
+  <diagram name="Blank" id="YmL12bMKpDGza6XwsDPr">
+    <mxGraphModel dx="1993" dy="873" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
+      <root>
+        <mxCell id="X5NqExCQtvZxIxQ7pmgY-0" />
+        <mxCell id="1" parent="X5NqExCQtvZxIxQ7pmgY-0" />
+        <mxCell id="bgBlhpCkj8hlurs78EUs-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1;shadow=1;" edge="1" parent="1" source="bgBlhpCkj8hlurs78EUs-7" target="bgBlhpCkj8hlurs78EUs-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bgBlhpCkj8hlurs78EUs-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-3" y="216.5" width="320" height="213" as="geometry" />
+        </mxCell>
+        <mxCell id="bgBlhpCkj8hlurs78EUs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontStyle=1;shadow=1;" edge="1" parent="1" source="bgBlhpCkj8hlurs78EUs-1" target="bgBlhpCkj8hlurs78EUs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bgBlhpCkj8hlurs78EUs-1" value="自动卡点短视频方案" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-183" y="293" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bgBlhpCkj8hlurs78EUs-6" value="定时爬虫比较好看图库按照顺序保存到本地" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="97" y="267.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bgBlhpCkj8hlurs78EUs-8" value="素材来源" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="127" y="229.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bgBlhpCkj8hlurs78EUs-9" value="定时爬一些流行抖音音乐" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="97" y="341.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bgBlhpCkj8hlurs78EUs-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1;shadow=1;" edge="1" parent="1" source="bgBlhpCkj8hlurs78EUs-15" target="bgBlhpCkj8hlurs78EUs-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bgBlhpCkj8hlurs78EUs-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;strokeWidth=4;fontSize=14;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="397" y="216.5" width="320" height="213" as="geometry" />
+        </mxCell>
+        <mxCell id="bgBlhpCkj8hlurs78EUs-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;根据音频和音乐自动生成视频&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="478" y="307.5" width="164" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="bgBlhpCkj8hlurs78EUs-19" value="已完成" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="527" y="366" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bgBlhpCkj8hlurs78EUs-20" value="自动发布抖音/小红书等平台" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="797" y="216.5" width="320" height="213" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
