@@ -3,7 +3,7 @@ import os
 import webview
 import moviepy.editor as mpy
 from forjs.utils.audio import GetAudioBeats
-from forjs.utils.images import download_random_image, generate_random_image
+from forjs.utils.images import download_random_image, generate_random_image, resize_and_pad
 def selectAudioFiles(window):
     def selectAudioFiles():
         file_types = ('Audio Files (*.wav;*.mp3;*.aac;*.flac)', 'All files (*.*)')
@@ -30,6 +30,8 @@ def selectAudioFiles(window):
             start_time = beat_times[i]
             end_time = beat_times[i + 1]
             img_path = os.path.join(img_dir, f'image_{i}.png')
+            # 填充白色改变像素～
+            resize_and_pad(img_path,img_path,1080,2160)
             print(img_path)
             print(end_time,start_time)
             img_clip = mpy.ImageClip(img_path).set_duration(end_time - start_time)
