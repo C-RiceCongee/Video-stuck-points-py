@@ -12,7 +12,7 @@ const testPythonCall = async () => {
 
 <template>
   <div class="card">
-    <button type="button" @click="testPythonCall">{{loading?'正在生成...':'一键卡点视频'}}</button>
+    <button type="button" :disabled="loading" @click="testPythonCall">{{loading?'正在生成...':'一键卡点视频'}}</button>
   </div>
 </template>
 

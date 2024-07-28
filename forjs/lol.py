@@ -4,7 +4,6 @@ import webview
 import moviepy.editor as mpy
 from forjs.utils.audio import GetAudioBeats
 from forjs.utils.images import download_random_image, generate_random_image
-import pathlib
 def selectAudioFiles(window):
     def selectAudioFiles():
         file_types = ('Audio Files (*.wav;*.mp3;*.aac;*.flac)', 'All files (*.*)')
