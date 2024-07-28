@@ -8,16 +8,9 @@ def lol():
     print('LOL')
     return 'lol'
 
-def wtf():
-    print('WTF')
-
-def echo(arg1, arg2, arg3):
-    print(arg1)
-    print(arg2)
-    print(arg3)
 
 def expose(window):
-    window.expose(lol, wtf,echo,selectAudioFiles(window))  # expose functions beforehand
+    window.expose(lol,selectAudioFiles(window))  # expose functions beforehand
 
 def resource_path(relative_path):
     """ Get absolute path to resource, works for both development and PyInstaller """

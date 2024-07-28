@@ -88,12 +88,10 @@ def download_500px_images(url_base):
     
     # 发起 GET 请求
     response = requests.get(url)
-    print(response)
     # 检查响应状态码
     if response.status_code == 200:
         # 解析 JSON 数据
         data = json.loads(response.text)
-        print(data)
         # 提取图片 URL
         for item in data:
             image_url = item['url']['p4']
@@ -108,13 +106,17 @@ def download_500px_images(url_base):
             dirName = "500px_"+today
             os.makedirs(dirName, exist_ok=True)
             fullPath = os.path.join(dirName,image_name)
-            if image_response.status_code == 200:
-                # 保存图片到本地
-                with open(fullPath, 'wb') as file:
-                    for chunk in image_response.iter_content(1024):
-                        file.write(chunk)
-                print(f"Downloaded: {image_name}")
+            if os.path.isfile(fullPath):
+                print(f"has Downloaded: {image_name}")
+                continue
             else:
-                print(f"Failed to download: {image_url}")
+                if image_response.status_code == 200:
+                    # 保存图片到本地
+                    with open(fullPath, 'wb') as file:
+                        for chunk in image_response.iter_content(1024):
+                            file.write(chunk)
+                    print(f"Downloaded: {image_name}")
+                else:
+                    print(f"Failed to download: {image_url}")
     else:
         print(f"Failed to fetch data: {response.status_code}")
